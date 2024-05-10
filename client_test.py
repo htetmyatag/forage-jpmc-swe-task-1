@@ -16,7 +16,13 @@ class ClientTest(unittest.TestCase):
     ]
     """ ------------ Add the assertion below ------------ """
 
+  def test_getRatio_calculateRatio(self):
+    price_a = 101
+    price_b = 105
 
+  def test_getRatio_calculateRatio_PriceZero(self):
+    price_a = 100
+    price_b = 0
   """ ------------ Add more unit tests ------------ """
 
 
